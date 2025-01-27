@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/azimdahl.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/azimdahl.github.io/static/js/main.37d5a058.js",
+    "static/js/488.943b2536.chunk.js": "/azimdahl.github.io/static/js/488.943b2536.chunk.js",
+    "static/media/logo.svg": "/azimdahl.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/azimdahl.github.io/index.html",
+    "main.f855e6bc.css.map": "/azimdahl.github.io/static/css/main.f855e6bc.css.map",
+    "main.37d5a058.js.map": "/azimdahl.github.io/static/js/main.37d5a058.js.map",
+    "488.943b2536.chunk.js.map": "/azimdahl.github.io/static/js/488.943b2536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.37d5a058.js"
+  ]
+}
