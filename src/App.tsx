@@ -1,27 +1,14 @@
+import Navigation from './components/Navigation'
 import Header from './components/Header'
+import CardGroup from './components/CardGroup'
 
 function App() {
 
   return (
     <>
-      Navigation
+      <Navigation />
       <Header />
-      <main>
-        <section>
-          Languages icons
-        </section>
-        <section>
-          <section id="info">
-            Buttons: Web Development/Game Design
-            About Me
-            Projects
-            Skills
-          </section>
-          <section id="contact">
-            Contact
-          </section>
-        </section>
-      </main>
+      <CardGroup /> 
     </>
   )
 }

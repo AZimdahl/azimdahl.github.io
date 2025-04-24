@@ -1,13 +1,31 @@
-# React + TypeScript + Vite
+# Alexander Zimdahl's Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for my personal portfolio website, built using React, TypeScript, and Vite. The website showcases my projects, skills, and professional experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React + TypeScript**: A modern stack for building scalable and maintainable web applications.
+- **Vite**: A fast build tool for development and production.
+- **ESLint**: Configured with type-aware linting rules for clean and consistent code.
 
-## Expanding the ESLint configuration
+## Development
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/azimdahl/azimdahl.github.io.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Expanding the ESLint Configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
@@ -52,3 +70,7 @@ export default tseslint.config({
   },
 })
 ```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
