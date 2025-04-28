@@ -14,11 +14,16 @@ export default function CardGroup() {
             <Skills />
             <About />
           </div>
-          <div className="mt-2 lg:mt-6">
+          {/* Contact for large screens */}
+          <div className="hidden lg:block mt-2 lg:mt-6">
             <Contact />
           </div>
         </div>
         <Projects show="thumbnail" />
+        {/* Contact for small screens */}
+        <div className="lg:hidden mt-2">
+          <Contact />
+        </div>
       </section>
     </main>
   )
